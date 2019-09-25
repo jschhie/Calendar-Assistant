@@ -1,4 +1,4 @@
-Brief Intro: calendar-prog, Spring 2017, C++.
+*Brief Intro of calendar-prog: User-Friendly Calendar, Spring 2017, C++.*
 
 # Table of Contents
 * [Introduction](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#introduction)
@@ -12,9 +12,9 @@ Brief Intro: calendar-prog, Spring 2017, C++.
   * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#remark-on-user-input)
     
 # Introduction
-A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
-Assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. 
-Assumes each month has 30 days. Returns appointments in chrological order.
+This repository, calendar-prog, contains the source code for a user-friendly calendar, programmed in C++. 
+The calendar integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
+It also assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. Assumes each month has 30 days. Displays appointments in chrological order.
 
 
 # How to Use
@@ -45,7 +45,8 @@ For the latter, the csv file contains a list of appointments and must have the f
 ### Additional Notes for CSV Entries
 * Abbreviations: S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday.
 * For a non-weekly event, you can either (1) leave both the "Series" and "Count" blank, 
-or (2) provide both, so that "Series" is a single character and "Count" is 1.   
+or (2) provide both, so that "Series" is a single character and "Count" is 1.
+* For a clearer example, please see the "weeklyAppts.csv" file.
 
 # Using calendar-prog
 
