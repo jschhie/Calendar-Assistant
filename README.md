@@ -1,7 +1,7 @@
 Brief Description: calendar-prog, Spring 2017, C++.
 
 # Table of Contents
-* [Introduction](./#Introduction)
+* [Introduction](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#introduction)
 * [How to Use](./#How-to-Use)
   * [Creating Executable](./#Creating-Executable)
   * [Command Line Arguments I](./#Command-Line-Arguments-I)
