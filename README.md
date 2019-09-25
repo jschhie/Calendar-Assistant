@@ -2,14 +2,14 @@ Brief Description: calendar-prog, Spring 2017, C++.
 
 # Table of Contents
 * [Introduction](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#introduction)
-* [How to Use](./#How-to-Use)
-  * [Creating Executable](./#Creating-Executable)
-  * [Command Line Arguments I](./#Command-Line-Arguments-I)
-  * [Command Line Arguments II](./#Command-Line-Arguments-II)
-    - [CSV Entries](./#CSV-Entries)
-    - [Additional Notes for CSV Entries](./#Additional-Notes-for-CSV-Entries)
- * [Using calendar-prog](./#Using-calendar--prog)
-  * [Remark on User Input](./#Remark-on-User-Input)
+* [How to Use](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#how-to-use)
+  * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#creating-executable)
+  * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#command-line-arguments-i)
+  * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#command-line-arguments-ii)
+    - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#csv-entries)
+    - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#additional-notes-for-csv-entries)
+ * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#using-calendar-prog)
+  * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#remark-on-user-input)
     
 # Introduction
 A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
