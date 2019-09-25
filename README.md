@@ -3,7 +3,7 @@
 # Table of Contents
 * [Introduction](https://github.com/jschhie/calendar-prog/blob/master/README.md#introduction)
 * [How to Use](https://github.com/jschhie/calendar-prog/blob/master/README.md#how-to-use)
-  * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/master/README.md#creating-executable)
+  * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/master/README.md#creating-executable-file)
   * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-i)
   * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-ii)
     - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#csv-entries)
@@ -19,8 +19,9 @@ It also assists users in creating and finding events and arranges weekly appoint
 
 
 # How to Use
+Please ensure that you have already downloaded the source code and the binary file, "DOW.dat." Otherwise, the program will *not* execute properly.
 
-## Creating Executable
+## Creating Executable File
 For convenience, the corresponding Makefile has been made available. After downloading it and the source code, you can use the command: 
 ```make calendar.out```
 
