@@ -1,15 +1,15 @@
-*Brief Intro of calendar-prog: User-Friendly Calendar, Spring 2017, C++.*
+*Brief Intro of calendar-prog*: User-Friendly Calendar, Spring 2017, C++.
 
 # Table of Contents
-* [Introduction](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#introduction)
-* [How to Use](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#how-to-use)
-  * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#creating-executable)
-  * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#command-line-arguments-i)
-  * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#command-line-arguments-ii)
-    - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#csv-entries)
-    - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#additional-notes-for-csv-entries)
- * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#using-calendar-prog)
-  * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#remark-on-user-input)
+* [Introduction](https://github.com/jschhie/calendar-prog/blob/master/README.md#introduction)
+* [How to Use](https://github.com/jschhie/calendar-prog/blob/master/README.md#how-to-use)
+  * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/master/README.md#creating-executable)
+  * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-i)
+  * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-ii)
+    - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#csv-entries)
+    - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#additional-notes-for-csv-entries)
+ * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/master/README.md#using-calendar-prog)
+  * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
     
 # Introduction
 This repository, calendar-prog, contains the source code for a user-friendly calendar, programmed in C++. 
