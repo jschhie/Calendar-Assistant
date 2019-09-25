@@ -1,15 +1,15 @@
 Brief Description: calendar-prog, Spring 2017, C++.
 
 # Table of Contents
-* [Introduction](./Introduction)
-* [How to Use](./How-to-Use)
-  * [Creating Executable](./Creating-Executable)
-  * [Command Line Arguments I](./Command-Line-Arguments-I)
-  * [Command Line Arguments II](./Command-Line-Arguments-II)
-    - [CSV Entries](./CSV-Entries)
-    - [Additional Notes for CSV Entries](./Additional-Notes-for-CSV-Entries)
- * [Using calendar-prog](./Using-calendar--prog)
-  * [Remark on User Input](./Remark-on-User-Input)
+* [Introduction](./#Introduction)
+* [How to Use](./#How-to-Use)
+  * [Creating Executable](./#Creating-Executable)
+  * [Command Line Arguments I](./#Command-Line-Arguments-I)
+  * [Command Line Arguments II](./#Command-Line-Arguments-II)
+    - [CSV Entries](./#CSV-Entries)
+    - [Additional Notes for CSV Entries](./#Additional-Notes-for-CSV-Entries)
+ * [Using calendar-prog](./#Using-calendar--prog)
+  * [Remark on User Input](./#Remark-on-User-Input)
     
 # Introduction
 A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
