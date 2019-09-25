@@ -1,4 +1,4 @@
-// Author: Sean Davis
+// Authors: Jennifer Chhie and Tammy Lee
 #include "appt.h"
 #include "linkedlist.h"
 #include <iostream>
