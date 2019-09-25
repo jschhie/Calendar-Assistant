@@ -36,12 +36,15 @@ int getChoice()
 
 int main(int argc, char **argv) 
 {
+  
+/*
   cout << "*************************************************************************\n";
   cout << "\nUsage: ./calendar.out <weeklyAppts.csv>";
   cout << "\nThis program allows users to search appointments based on dates/subject,\nadd weekly appointments, and tally total appointments.\n";
   cout << "\nInput file 'weeklyAppts.csv' must have the following format and heading:\nDate,Class,Subject,Start Time,End Time,Location,Series,Count\n";
   cout << "\n*************************************************************************\n\n";
-
+*/
+  
   Calendar calendar;
   int choice;
   
