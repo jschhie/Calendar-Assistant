@@ -10,7 +10,9 @@ Brief Intro: calendar-prog, Spring 2017, C++.
     - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#additional-notes-for-csv-entries)
  * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/master/README.md#using-calendar-prog)
   * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
-    
+* [Acknowledgments] (https://github.com/jschhie/calendar-prog/blob/master/README.md#acknowledgments)
+
+
 # Introduction
 A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
 Assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. 
@@ -55,3 +57,5 @@ While runnning the program, you are presented five options in the "Calendar Menu
 ## Remark on User Input
 The program is *case-sensitive*. For example, 'Intro Spanish' and 'intro spanish' are regarded as different in the "Subject" field. 
 
+# Acknowledgments
+Sean Davis provided partial code for the header files, as guidance for this project, and created "DOW.dat" and "weeklyAppts.csv." Other than these files, I implemented the rest of the source code with Tammy Lee. Lastly, this README.md was created by myself.
