@@ -17,8 +17,8 @@ public:
 
   dayOfWeek(int mon, int day1, int year1);
   bool operator== (char c) const;
-  friend istream& operator>> (istream &is, dayOfWeek &day); 
-  friend ostream& operator<< (ostream &os, const dayOfWeek &day); 
+  friend istream& operator>> (istream &is, dayOfWeek &dayOfWeekRef);
+  friend ostream& operator<< (ostream &os, const dayOfWeek &dayOfWeekPtr); 
 
 }; // class dayOfWeek
 

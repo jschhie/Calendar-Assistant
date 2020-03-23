@@ -1,19 +1,18 @@
-// Authors: Jennifer Chhie and Tammy Lee
 #include <fstream>
 #include <iostream>
 #include <cstring>
 #include <iomanip>
-#include "DayOfWeek.h"
+#include "dayOfWeek.h"
 
 using namespace std;
 
 
-DayOfWeek::DayOfWeek(int month1, int day1, int year1) : month(month1), 
+dayOfWeek::dayOfWeek(int month1, int day1, int year1): month(month1), 
   day(day1), year(year1)
 {
 }  // DayOfWeek()
 
-bool DayOfWeek::operator== (char c) const 
+bool dayOfWeek::operator== (char c) const 
 {
   switch (c)
   {
@@ -45,35 +44,35 @@ bool DayOfWeek::operator== (char c) const
 
 } // DayOfWeek overloaded operator
 
-ostream& operator<< (ostream &os, const DayOfWeek &dayOfWeek)
+ostream& operator<< (ostream &os, const dayOfWeek &dayOfWeekRef)
 {
   char line[80], dayStr[3], yearStr[10];
-  strcpy(line, dayOfWeek.dayName);
+  strcpy(line, dayOfWeekRef.dayName);
   strcat(line, ", ");
-  strcat(line, dayOfWeek.monthName);
+  strcat(line, dayOfWeekRef.monthName);
   strcat(line, " ");
     
-  if(dayOfWeek.day > 9)
+  if(dayOfWeekRef.day > 9)
   {
-    dayStr[0] = dayOfWeek.day / 10 + '0';
-    dayStr[1] = dayOfWeek.day % 10 + '0';
+    dayStr[0] = dayOfWeekRef.day / 10 + '0';
+    dayStr[1] = dayOfWeekRef.day % 10 + '0';
     dayStr[2] = '\0';
   } // if day > 9
   else // day < 10
   {
-    dayStr[0] = dayOfWeek.day + '0';
+    dayStr[0] = dayOfWeekRef.day + '0';
     dayStr[1] = '\0';
   } // else day < 10
   
   strcat(line, dayStr);
   strcat(line, ", ");
    
-  int copyYear = dayOfWeek.year / 1000;
+  int copyYear = dayOfWeekRef.year / 1000;
   
   yearStr[0] = copyYear + '0';
-  yearStr[1] = ( (dayOfWeek.year / 100) - (copyYear * 10) ) + '0';
-  yearStr[2] = ( (dayOfWeek.year / 10 ) % 10) + '0';
-  yearStr[3] = dayOfWeek.year % 10 + '0';
+  yearStr[1] = ( (dayOfWeekRef.year / 100) - (copyYear * 10) ) + '0';
+  yearStr[2] = ( (dayOfWeekRef.year / 10 ) % 10) + '0';
+  yearStr[3] = dayOfWeekRef.year % 10 + '0';
   yearStr[4] = '\0';
 
   strcat(line, yearStr);
@@ -83,11 +82,11 @@ ostream& operator<< (ostream &os, const DayOfWeek &dayOfWeek)
 }  // operator<<()
 
 
-istream& operator>> (istream &is, DayOfWeek &day) 
+istream& operator>> (istream &is, dayOfWeek &dayOfWeekPtr) 
 {
-  int dateNumber = (day.month - 1) * 31 + day.day - 1 + (day.year - 1990) * 372;
-  is.seekg(dateNumber * sizeof(DayOfWeek));
-  is.read((char*) &day, sizeof(DayOfWeek));
+  int dateNumber = (dayOfWeekPtr.month - 1) * 31 + dayOfWeekPtr.day - 1 + (dayOfWeekPtr.year - 1990) * 372;
+  is.seekg(dateNumber * sizeof(dayOfWeek));
+  is.read((char*) &dayOfWeekPtr, sizeof(dayOfWeek));
   return is;
 }  // operator>>
 
