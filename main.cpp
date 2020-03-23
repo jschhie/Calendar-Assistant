@@ -1,6 +1,6 @@
-/* Driver Program for User-Friendly Calendar 
+/* Driver Program for User-Friendly Calendar
  * Written by Jennifer Chhie and Tammy Lee
- * Sean Davis provided the template header files and .csv
+ * Sean Davis provided the template header files, weeklyAppts.csv, and DOW.dat
  */
 #include <iostream>
 #include <fstream>
