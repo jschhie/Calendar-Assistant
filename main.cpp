@@ -1,9 +1,7 @@
 /* Driver Program for User-Friendly Calendar */
-
 #include <iostream>
 #include <fstream>
 #include "calendar.h"
-#include "appt.h"
 
 using namespace std;
 
@@ -34,17 +32,20 @@ int getChoice()
 } // getChoice()
 
 
-int main(int argc, char **argv) 
+int printPrompt()
 {
-  
-/*
-  cout << "*************************************************************************\n";
+  cout << "---------------------------------------------------------------------------\n";
   cout << "\nUsage: ./calendar.out <weeklyAppts.csv>";
   cout << "\nThis program allows users to search appointments based on dates/subject,\nadd weekly appointments, and tally total appointments.\n";
   cout << "\nInput file 'weeklyAppts.csv' must have the following format and heading:\nDate,Class,Subject,Start Time,End Time,Location,Series,Count\n";
-  cout << "\n*************************************************************************\n\n";
-*/
-  
+  cout << "---------------------------------------------------------------------------\n\n";
+  return 0;
+} // printPrompt()
+
+int main(int argc, char **argv) 
+{
+  // Program Initialization
+  printPrompt();
   Calendar calendar;
   int choice;
   
@@ -53,6 +54,7 @@ int main(int argc, char **argv)
   inf.close();
   choice = getChoice();
   
+  // Execute user's choice
   while(choice)
   {
     switch(choice)
@@ -66,8 +68,8 @@ int main(int argc, char **argv)
     }  // switch
     
     choice = getChoice();
-  } // while choice not 0.
+  } 
 
   return 0;
-} // main())
+} // main()
 

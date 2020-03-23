@@ -1,26 +1,25 @@
-calendar.out: appt.o calendar.o day.o DayOfWeek.o main.o time.o weeklyappt.o
-        g++ -ansi -Wall -o calendar.out appt.o calendar.o day.o DayOfWeek.o main.o time.o weeklyappt.o 
+targets := calendar.out
+objs	:= main.o appt.o calendar.o day.o dayOfWeek.o time.o weeklyAppt.o
 
-appt.o: appt.cpp appt.h time.h
-        g++ -ansi -Wall -c appt.cpp
+CC	:= g++
+CFLAGS	:= -Wall
+CFLAGS	+= -g
 
-calendar.o: calendar.cpp calendar.h day.h vector.cpp vector.h weeklyappt.h DayOfWeek.h
-        g++ -ansi -Wall -c calendar.cpp
+# Enable verbose output if debugging
+ifneq ($(V), 1) 
+Q = @
+endif
 
-day.o: day.cpp day.h appt.h DayOfWeek.h weeklyappt.h linkedlist.cpp
-        g++ -ansi -Wall -c day.cpp
+all: $(targets)
 
-DayOfWeek.o: DayOfWeek.cpp DayOfWeek.h
-        g++ -ansi -Wall -c DayOfWeek.cpp
+calendar.out: $(objs) 
+	@echo "G++   $@"
+	$(Q) $(CC) $(CFLAGS) -o $@ $^ 
 
-main.o: main.cpp calendar.h appt.h
-        g++ -ansi -Wall -c main.cpp
+%.o: %.cpp 
+	@echo "G++   $@"
+	$(Q) $(CC) $(CFLAGS) -c -o $@ $<
 
-time.o: time.cpp time.h
-        g++ -ansi -Wall -c time.cpp
-
-weeklyappt.o: weeklyappt.h appt.h weeklyappt.cpp
-        g++ -ansi -Wall -c weeklyappt.cpp
-
-clean: 
-        rm -f calendar.out appt.o  calendar.o  day.o  DayOfWeek.o  main.o  time.o  weeklyappt.o
+clean:
+	@echo "CLEAN"
+	$(Q) rm -f $(objs) $(targets)

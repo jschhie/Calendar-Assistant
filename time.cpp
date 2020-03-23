@@ -1,5 +1,3 @@
-// Authors: Jennifer Chhie and Tammy Lee
-
 #include <iostream>
 #include <iomanip>
 #include <cstring>
@@ -41,7 +39,7 @@ ostream& operator<< (ostream &os, const Time &time)
      << ' ' << setfill(' ');
   
   return os;
-} // operator<< ()
+} // operator<<
 
 
 istream& operator>> (istream &is, Time &time)

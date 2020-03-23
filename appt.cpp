@@ -4,7 +4,6 @@
 #include <fstream>
 #include <string.h>
 #include "appt.h"
-#include "time.h"
 
 using namespace std;
 
@@ -75,13 +74,13 @@ int Appointment::getCount()
 bool Appointment::operator== (const char *subject2) const
 {
   return strstr(subject, subject2) != NULL;
-}  // operator==()
+}  // operator==
 
 
 bool Appointment::operator< (const Appointment &appointment2) const
 {
   return startTime < appointment2.startTime; 
-}  // operator< ()
+}  // operator< 
 
 
 ostream& operator<< (ostream &os, const Appointment &appointment)
@@ -91,14 +90,14 @@ ostream& operator<< (ostream &os, const Appointment &appointment)
   os << endl;
  
   return os;
-} // operator<< ()
+} // operator<< 
 
 
 istream& operator>> (istream &is, Appointment &appointment)
 {
   appointment.read(is);
   return is;
-} // operator>>()
+} // operator>>
 
 
 void Appointment::read(istream &is)
@@ -114,8 +113,8 @@ void Appointment::read(istream &is)
   strcpy(location, line);
 } // read() for Appt
 
+
 void Appointment::write(ostream& os) const
 {
   os << subject << setw(26) << location;     
-
 } // write()

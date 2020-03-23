@@ -1,12 +1,11 @@
-// Authors: Jennifer Chhie and Tammy Lee
-#include "appt.h"
-#include "linkedlist.h"
 #include <iostream>
+#include "linkedlist.h"
 
 template <typename T>
 ListNode<T>::ListNode(T appt, ListNode<T> *n) : object(appt), next(n)
 {
 }  // ListNode();
+
 
 template <typename T>
 ListNode<T>::~ListNode()
@@ -14,10 +13,12 @@ ListNode<T>::~ListNode()
   delete object;
 }  // ~ListNode();
 
+
 template <typename T>
 LinkedList<T>::LinkedList() : head(NULL)
 {
 } // LinkedList()
+
 
 template <typename T>
 LinkedList<T>::~LinkedList() 
@@ -28,6 +29,7 @@ LinkedList<T>::~LinkedList()
     delete ptr;
   }   // for each ListNode
 } // ~LinkedList()
+
 
 template <typename T>
 const T LinkedList<T>::find(const char* subject) const
@@ -45,6 +47,7 @@ const T LinkedList<T>::find(const char* subject) const
 
   return NULL;
 }  // find()
+
  
 template <typename T>
 LinkedList<T>& LinkedList<T>::operator= (const LinkedList<T> &rhs)
@@ -70,6 +73,7 @@ LinkedList<T>& LinkedList<T>::operator= (const LinkedList<T> &rhs)
   return *this;
 }  // operator=
 
+
 template <typename T>
 const T LinkedList<T>::operator[] (int index) const
 {
@@ -83,6 +87,7 @@ const T LinkedList<T>::operator[] (int index) const
   else // not found
     return NULL;
 } // const operator[]
+
 
 template <typename T>
 LinkedList<T>& LinkedList<T>::operator+= (const T object)
@@ -100,6 +105,7 @@ LinkedList<T>& LinkedList<T>::operator+= (const T object)
   return *this;
 }  // operator+=
 
+
 template <typename A>
 ostream& operator<< (ostream& os, const LinkedList<A> &list)
 {
@@ -107,5 +113,4 @@ ostream& operator<< (ostream& os, const LinkedList<A> &list)
     os << *ptr->object;
   
   return os;
-} // operator<<()
-
+} // operator<<

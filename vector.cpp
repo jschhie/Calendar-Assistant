@@ -1,6 +1,5 @@
-#include "vector.h"
-
 #include <cstdlib>
+#include "vector.h"
 
 template <typename T>
 Vector<T>::~Vector()
@@ -8,11 +7,13 @@ Vector<T>::~Vector()
   delete [] array;
 } // ~Vector()
 
+
 template <typename T>
 int Vector<T>::getCount() const
 {
   return count;
 } // getCount()
+
 
 template <typename T>
 const T& Vector<T>::operator[] (int index) const
@@ -20,11 +21,13 @@ const T& Vector<T>::operator[] (int index) const
   return array[index]; 
 } // operator[] 
 
+
 template <typename T>
 T& Vector<T>::operator[] (int index)
 {
   return array[index];
 } // operator[]
+
 
 template <typename T> 
 int Vector<T>::operator+= (const T& object)

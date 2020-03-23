@@ -4,19 +4,22 @@
 #include <iostream>
 using namespace std;
 
-class DayOfWeek 
+class dayOfWeek 
 {
+
   char monthName[10];
   int month;
   int day;
   int year;
   char dayName[10];
+
 public:
-  DayOfWeek(int mon, int day1, int year1);
+
+  dayOfWeek(int mon, int day1, int year1);
   bool operator== (char c) const;
-  friend istream& operator>> (istream &is, DayOfWeek &day); 
-  friend ostream& operator<< (ostream &os, const DayOfWeek &day); 
-}; // class DayOfWeek
+  friend istream& operator>> (istream &is, dayOfWeek &day); 
+  friend ostream& operator<< (ostream &os, const dayOfWeek &day); 
+
+}; // class dayOfWeek
 
 #endif	// DAYOFWEEK_H
-

@@ -1,25 +1,27 @@
 #ifndef DAY_H
 #define	DAY_H
-// Author: Sean Davis
 
 #include <iostream>
 #include "linkedlist.h"
 #include "appt.h"
+#include "dayOfWeek.h"
 #include "vector.h"
-#include "weeklyappt.h"
-//#include "calendar.h"
+#include "weeklyAppt.h"
 
-// NEED TO CHANGE DAY EXTRACTION OP TO RETURN A CONST POINTER TO AN APPOINTMENT NOT ISTREAM REF //
+// NOTE: NEED TO CHANGE DAY EXTRACTION OP TO RETURN A CONST POINTER TO AN APPOINTMENT NOT ISTREAM REF //
 
 using namespace std;
 
 class Day
 {
+
   short day;
   short month;
   short year;
   LinkedList<Appointment*>appts; 
+
 public:
+
   Day();
   Day(int day1, int month, int year);
   void addAppointment();
@@ -35,8 +37,4 @@ public:
   int getYear() const;
 }; // class Day
 
-
-
-
 #endif	// DAY_H 
-

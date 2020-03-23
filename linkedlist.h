@@ -7,10 +7,10 @@
 template <typename T>
 class LinkedList;
 
-
 template <typename T>
 class ListNode
 {
+
   T object;
   ListNode<T> *next;
   ListNode(T appt, ListNode *n);
@@ -18,13 +18,18 @@ class ListNode
   friend class LinkedList<T>;
   template <typename A>
   friend ostream& operator<< (ostream& os, const LinkedList<A> &list);
+
 };  // class ListNode
+
 
 template <typename T>
 class LinkedList 
 {
+
   ListNode<T> *head;
+
 public:
+
   LinkedList();
   ~LinkedList();
   const T find(const char* subject) const;
@@ -39,4 +44,3 @@ public:
 #include "linkedlist.cpp"
 
 #endif	// LINKEDLIST_H
-

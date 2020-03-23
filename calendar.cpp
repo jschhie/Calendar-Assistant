@@ -3,9 +3,6 @@
 #include <cstring>
 #include <cstdlib>
 #include "calendar.h"
-#include "day.h"
-#include "DayOfWeek.h"
-#include "weeklyappt.h"
 
 using namespace std;
 
@@ -78,6 +75,7 @@ void Calendar::getDate(int *day, int *month, int *year) const
   } // while invalid date
 }  // getDate()
 
+
 istream& operator>> (istream &is, Calendar &calendar)
 {
   char line[80];
@@ -109,6 +107,7 @@ istream& operator>> (istream &is, Calendar &calendar)
   return is;
 }  // operator>> ()
 
+
 void Calendar::subjectSearch() const
 {
   char subject[80];
@@ -125,6 +124,7 @@ void Calendar::subjectSearch() const
   
   cout << "\n";
 }  // subjectSearch()
+
 
 void Calendar::createSeries(WeeklyAppointment wk, int day, int month, int year)
 {
@@ -147,7 +147,7 @@ void Calendar::createSeries(WeeklyAppointment wk, int day, int month, int year)
     
     } // not valid date
 
-    DayOfWeek dayOfWeek2(month, day, year);
+    dayOfWeek dayOfWeek2(month, day, year);
     inf >> dayOfWeek2;
 
     for(unsigned int j = 0; j < strlen(wk.getSeries()); j++) 
@@ -164,6 +164,7 @@ void Calendar::createSeries(WeeklyAppointment wk, int day, int month, int year)
 
   inf.close();	
 } // createSeries()
+
 
 void Calendar::date(int *month, int *day, int *year)
 {

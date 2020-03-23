@@ -1,27 +1,25 @@
-*Brief Intro of calendar-prog*: User-Friendly Calendar, Spring 2017, C++.
+Brief Intro: calendar-prog, Spring 2017, C++.
 
 # Table of Contents
-* [Introduction](https://github.com/jschhie/calendar-prog/blob/master/README.md#introduction)
-* [How to Use](https://github.com/jschhie/calendar-prog/blob/master/README.md#how-to-use)
-  * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/master/README.md#creating-executable-file)
-  * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-i)
-  * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-ii)
-    - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#csv-entries)
-    - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#additional-notes-for-csv-entries)
- * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/master/README.md#using-calendar-prog)
-  * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
- * [Acknowledgments](https://github.com/jschhie/calendar-prog/blob/master/README.md#acknowledgments)
+* [Introduction](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#introduction)
+* [How to Use](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#how-to-use)
+  * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#creating-executable)
+  * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#command-line-arguments-i)
+  * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#command-line-arguments-ii)
+    - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#csv-entries)
+    - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#additional-notes-for-csv-entries)
+ * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#using-calendar-prog)
+  * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/readme-edits/README.md#remark-on-user-input)
     
 # Introduction
-This repository, calendar-prog, contains the source code for a user-friendly calendar, programmed in C++. 
-The calendar integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
-It also assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. Assumes each month has 30 days. Displays appointments in chrological order.
+A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
+Assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. 
+Assumes each month has 30 days. Returns appointments in chrological order.
 
 
 # How to Use
-Please ensure that you have already downloaded the source code and the binary file, "DOW.dat." Otherwise, the program will *not* execute properly.
 
-## Creating Executable File
+## Creating Executable
 For convenience, the corresponding Makefile has been made available. After downloading it and the source code, you can use the command: 
 ```make calendar.out```
 
@@ -47,8 +45,7 @@ For the latter, the csv file contains a list of appointments and must have the f
 ### Additional Notes for CSV Entries
 * Abbreviations: S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday.
 * For a non-weekly event, you can either (1) leave both the "Series" and "Count" blank, 
-or (2) provide both, so that "Series" is a single character and "Count" is 1.
-* For a clearer example, please see the "weeklyAppts.csv" file.
+or (2) provide both, so that "Series" is a single character and "Count" is 1.   
 
 # Using calendar-prog
 
@@ -58,6 +55,3 @@ While runnning the program, you are presented five options in the "Calendar Menu
 ## Remark on User Input
 The program is *case-sensitive*. For example, 'Intro Spanish' and 'intro spanish' are regarded as different in the "Subject" field. 
 
-# Acknowledgments
-Sean Davis provided *partial* code for the header files, as guidance for this project, and created "DOW.dat" and "weeklyAppts.csv."
-Other than these files, I implemented the rest of the source code with Tammy Lee. Lastly, this README.md was created by myself.

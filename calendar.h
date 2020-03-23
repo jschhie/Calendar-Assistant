@@ -1,15 +1,19 @@
 #ifndef CALENDAR_H
 #define	CALENDAR_H
-// Author: Sean Davis
 
+#include "appt.h"
 #include "day.h"
+#include "dayOfWeek.h"
 #include "vector.h"
-#include "weeklyappt.h"
+#include "weeklyAppt.h"
 
 class Calendar
 {
+
   Vector<Day>days; 
+
 public:
+
   Calendar();
   void addAppointment();
   void dateSearch() const;
@@ -19,8 +23,7 @@ public:
   void createSeries(WeeklyAppointment weeklyAppt, 
                     int day, int month, int year);
   void date(int *month, int *day, int *year);
+
 };  // class Calendar
 
-
-#endif	// CALENDAR_H 
-
+#endif	// CALENDAR_H
