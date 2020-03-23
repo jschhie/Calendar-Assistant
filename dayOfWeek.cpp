@@ -7,11 +7,10 @@
 using namespace std;
 
 
-dayOfWeek::dayOfWeek(int month1, int day1, int year1) : month(month1), 
+dayOfWeek::dayOfWeek(int month1, int day1, int year1): month(month1), 
   day(day1), year(year1)
 {
-} // dayOfWeek() constructor
-
+}  // DayOfWeek()
 
 bool dayOfWeek::operator== (char c) const 
 {
@@ -19,23 +18,31 @@ bool dayOfWeek::operator== (char c) const
   {
     case 'M':
       return (strcmp(dayName, "Monday") == 0);
+
     case 'T':
       return (strcmp(dayName, "Tuesday") == 0);
+
     case 'W':
       return (strcmp(dayName, "Wednesday") == 0);
+
     case 'R':
       return (strcmp(dayName, "Thursday") == 0);
+
     case 'F':
       return (strcmp(dayName, "Friday") == 0);
+
     case 'S':
       return (strcmp(dayName, "Saturday") == 0);
+
     case 'U':
       return (strcmp(dayName, "Sunday") == 0);
+
     default: 
       return false;
-  } // Compares MTWRFSU with dayName
-} // dayOfWeek overloaded operator
 
+  } // Compares MTWRFSU with dayName
+
+} // DayOfWeek overloaded operator
 
 ostream& operator<< (ostream &os, const dayOfWeek &dayOfWeekRef)
 {
@@ -71,16 +78,15 @@ ostream& operator<< (ostream &os, const dayOfWeek &dayOfWeekRef)
   strcat(line, yearStr);
 
   os << left << setw(30) << line << right;
-
   return os;
+}  // operator<<()
 
-}  // operator<<
 
-
-istream& operator>> (istream &is, dayOfWeek &dayOfWeekPtr) // NOTE: Changed day -> dayOfWeekPtr
+istream& operator>> (istream &is, dayOfWeek &dayOfWeekPtr) 
 {
   int dateNumber = (dayOfWeekPtr.month - 1) * 31 + dayOfWeekPtr.day - 1 + (dayOfWeekPtr.year - 1990) * 372;
   is.seekg(dateNumber * sizeof(dayOfWeek));
   is.read((char*) &dayOfWeekPtr, sizeof(dayOfWeek));
   return is;
 }  // operator>>
+
