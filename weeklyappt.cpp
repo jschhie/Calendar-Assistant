@@ -63,4 +63,4 @@ void WeeklyAppointment::write(ostream& os) const
 {
   Appointment::write(os);           
   os << setw(8) <<  series << left  << "(" <<  seriesCount << ")";
-} // write()
+} // write() for weekly Appt
