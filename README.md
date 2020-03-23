@@ -2,14 +2,14 @@ Brief Intro: calendar-prog, Spring 2017, C++.
 
 # Table of Contents
 * [Introduction](https://github.com/jschhie/calendar-prog/blob/master/README.md#introduction)
-* [How to Use](https://github.com/jschhie/calendar-prog/README.md#how-to-use)
-  * [Creating Executable](https://github.com/jschhie/calendar-prog/README.md#creating-executable)
-  * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/README.md#command-line-arguments-i)
-  * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/README.md#command-line-arguments-ii)
-    - [CSV Entries](https://github.com/jschhie/calendar-prog/README.md#csv-entries)
-    - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/README.md#additional-notes-for-csv-entries)
- * [Using calendar-prog](https://github.com/jschhie/calendar-prog/README.md#using-calendar-prog)
-  * [Remark on User Input](https://github.com/jschhie/calendar-prog/README.md#remark-on-user-input)
+* [How to Use](https://github.com/jschhie/calendar-prog/blob/master/README.md#how-to-use)
+  * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/master/README.md#creating-executable)
+  * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-i)
+  * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-ii)
+    - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#csv-entries)
+    - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#additional-notes-for-csv-entries)
+ * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/master/README.md#using-calendar-prog)
+  * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
     
 # Introduction
 A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
