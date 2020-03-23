@@ -1,7 +1,7 @@
 Brief Intro: calendar-prog, Spring 2017, C++.
 
 # Table of Contents
-* [Introduction](https://github.com/jschhie/calendar-prog/README.md#introduction)
+* [Introduction](https://github.com/jschhie/calendar-prog/blob/master/README.md#introduction)
 * [How to Use](https://github.com/jschhie/calendar-prog/README.md#how-to-use)
   * [Creating Executable](https://github.com/jschhie/calendar-prog/README.md#creating-executable)
   * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/README.md#command-line-arguments-i)
@@ -39,7 +39,7 @@ For the latter, the csv file contains a list of appointments and must have the f
 | Subject           | Any string          | Spanish           |
 | Start/End Time    | HH:MM:SS AM/PM      | 10:10:00 AM       |
 | Location          | Any string          | 150 Wellman Hall  |
-| Series            | String in all CAPS  | SMTWRFU       |
+| Series            | String in all CAPS  | SMTWRFU           |
 | Count             | A digit             | 7                 |
 
 ### Additional Notes for CSV Entries
