@@ -21,13 +21,13 @@ Assumes each month has 30 days. Returns appointments in chrological order.
 
 ## Creating Executable
 For convenience, the corresponding Makefile has been made available. After downloading it and the source code, you can use the command: 
-```make calendar.out```
+```make all```
 
 ## Command Line Arguments I
 This program can be run as-is (e.g., ```./calendar.out```). 
 
 ## Command Line Arguments II 
-Alternatively, you can supply a comma-separated-values (csv) file as a command line argument.
+Alternatively, you can supply a comma-separated-values (csv) file as a command line argument (e.g., ```./calendar.out weeklyAppts.csv```).
 For the latter, the csv file contains a list of appointments and must have the following format *and* heading:
 > Date,Class,Subject,Start Time,End Time,Location,Series,Count.
 
