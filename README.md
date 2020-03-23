@@ -1,4 +1,4 @@
-Brief Intro: calendar-prog, Spring 2017, C++.
+Brief Intro: calendar-prog, Spring 2017 [updated in 2019], C++.
 
 # Table of Contents
 * [Introduction](https://github.com/jschhie/calendar-prog/blob/master/README.md#introduction)
