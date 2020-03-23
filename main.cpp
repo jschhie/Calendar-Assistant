@@ -1,4 +1,7 @@
-/* Driver Program for User-Friendly Calendar */
+/* Driver Program for User-Friendly Calendar 
+ * Written by Jennifer Chhie and Tammy Lee
+ * Sean Davis provided the template header files and .csv
+ */
 #include <iostream>
 #include <fstream>
 #include "calendar.h"
