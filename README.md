@@ -10,7 +10,7 @@ Brief Intro: calendar-prog, Spring 2017, C++.
     - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#additional-notes-for-csv-entries)
  * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/master/README.md#using-calendar-prog)
   * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
-* [Acknowledgments] (https://github.com/jschhie/calendar-prog/blob/master/README.md#acknowledgments)
+* [Acknowledgments](https://github.com/jschhie/calendar-prog/blob/master/README.md#acknowledgments)
 
 
 # Introduction
