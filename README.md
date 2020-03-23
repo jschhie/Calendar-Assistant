@@ -28,7 +28,7 @@ This program can be run as-is (e.g., ```./calendar.out```).
 
 ## Command Line Arguments II 
 Alternatively, you can supply a comma-separated-values (csv) file as a command line argument (e.g., ```./calendar.out weeklyAppts.csv```).
-For the latter, the csv file contains a list of appointments and must have the following format *and* heading:
+The csv file (if supplied) must contain a list of appointments and must have the following format *and* heading:
 > Date,Class,Subject,Start Time,End Time,Location,Series,Count.
 
 ### CSV Entries
