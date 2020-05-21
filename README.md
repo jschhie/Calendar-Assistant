@@ -36,13 +36,13 @@ The csv file (if supplied) must contain a list of appointments and must have the
 ### CSV Entries
 | CSV Entry Label   | Expected Format     | Example           |
 | ----------------- | -----------------   | -------           |
-| Date              | MM/DD/YYYY          | 08/09/2012        |
-| Class             | A digit             | 0                 |
-| Subject           | Any string          | Spanish           |
-| Start/End Time    | HH:MM:SS AM/PM      | 10:10:00 AM       |
-| Location          | Any string          | 150 Wellman Hall  |
-| Series            | String in all CAPS  | SMTWRFU           |
-| Count             | A digit             | 7                 |
+| Date              | MM/DD/YYYY          | ```08/09/2012```        |
+| Class             | A digit             | ```0```                 |
+| Subject           | Any string          | ```Spanish```           |
+| Start/End Time    | HH:MM:SS AM/PM      | ```10:10:00 AM```       |
+| Location          | Any string          | ```150 Wellman Hall```  |
+| Series            | String in all CAPS  | ```SMTWRFU```           |
+| Count             | A digit             | ```7```                 |
 
 ### Additional Notes for CSV Entries
 * Abbreviations: S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday.
@@ -58,4 +58,4 @@ While runnning the program, you are presented five options in the "Calendar Menu
 The program is *case-sensitive*. For example, 'Intro Spanish' and 'intro spanish' are regarded as different in the "Subject" field. 
 
 # Acknowledgments
-Sean Davis provided partial code for the header files, as guidance for this project, and created "DOW.dat" and "weeklyAppts.csv." Other than these files, I implemented the rest of the source code with Tammy Lee. Lastly, this README.md was created by myself.
+Sean Davis provided partial code for the header files, as guidance for this project, and created "DOW.dat" and "weeklyAppts.csv." Other than these files, I implemented the rest of the source code with Tammy Lee.
