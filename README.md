@@ -24,7 +24,7 @@ Assumes each month has 30 days. Returns appointments in chronological order.
 # How to Use
 
 ## Creating Executable
-For convenience, the corresponding Makefile has been made available. After downloading it and the source code, you can use the command: 
+For convenience, the corresponding ```Makefile``` has been made available. After downloading it along with the source code, you can use the command: 
 ```make all```
 
 ## Command Line Arguments I
