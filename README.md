@@ -2,8 +2,13 @@
 > Created in Spring 2017. Minor modifications made in 2019. Written in C++.
 
 
+# Project Overview
+A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
+Assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. 
+Assumes each month has 30 days. Returns appointments in chronological order.
+
+
 # Table of Contents
-* [Introduction](https://github.com/jschhie/calendar-prog/blob/master/README.md#introduction)
 * [How to Use](https://github.com/jschhie/calendar-prog/blob/master/README.md#how-to-use)
   * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/master/README.md#creating-executable)
   * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-i)
@@ -15,13 +20,8 @@
 * [Acknowledgments](https://github.com/jschhie/calendar-prog/blob/master/README.md#acknowledgments)
 
 
-# Introduction
-A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
-Assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. 
-Assumes each month has 30 days. Returns appointments in chronological order.
-
-
 # How to Use
+
 
 ## Creating Executable
 For convenience, the corresponding ```Makefile``` has been made available. After downloading it along with the source code, you can use the command: 
@@ -67,4 +67,3 @@ The program is *case-sensitive*. For example, 'Intro Spanish' and 'intro spanish
 
 # Acknowledgments
 My former professor provided partial code for the header files, as guidance for this project, and created "DOW.dat" and "weeklyAppts.csv." Other than these files, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.
-
