@@ -5,7 +5,7 @@
 # Project Overview
 This project was designed to help students keep track of their academic schedules. It assists users in creating and finding events and arranges weekly appointments. Its implementation makes use of templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
 
-> REMARK: Assumes each month has 30 days. Returns appointments in chronological order.
+> REMARK: Assumes each month has 30 days. Displays appointments in chronological order.
 
 
 # Table of Contents
@@ -32,8 +32,8 @@ This program can be run as-is (e.g., ```./calendar.out```).
 
 
 ## Command Line Arguments II 
-Alternatively, you can supply a comma-separated-values (csv) file as a command line argument (e.g., ```./calendar.out weeklyAppts.csv```).
-The csv file (if supplied) must contain a list of appointments and must have the following format *and* heading:
+Alternatively, you can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out weeklyAppts.csv```).
+The CSV file (if supplied) must contain a list of appointments and must have the following format *and* heading:
 > Date,Class,Subject,Start Time,End Time,Location,Series,Count.
 
 
@@ -58,7 +58,7 @@ or (2) provide both, so that "Series" is a single character and "Count" is 1.
 # Using calendar-prog
 
 While runnning the program, you are presented five options in the "Calendar Menu": 
-> (0) Done, (1) Search for date, (2) Search for Subject, (3) Add an appointment, and (4) Print appointment count. 
+> (0) Done, (1) Search for date, (2) Search for Subject, (3) Add an appointment, and (4) Retrieve total number of  appointments. 
 
 
 ## Remark on User Input
@@ -66,4 +66,4 @@ The program is *case-sensitive*. For example, 'Intro Spanish' and 'intro spanish
 
 
 # Acknowledgments
-My former professor provided partial code for the header files, as guidance for this project, and created ```DOW.dat``` and ```weeklyAppts.csv.``` Other than these sample files, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.
+As guidance for this project, my former professor provided skeleton code for the header files and some sample files (i.e., ```DOW.dat``` and ```weeklyAppts.csv```). Other than these sample files, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.
