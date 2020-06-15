@@ -66,5 +66,5 @@ The program is *case-sensitive*. For example, 'Intro Spanish' and 'intro spanish
 
 
 # Acknowledgments
-Sean Davis provided partial code for the header files, as guidance for this project, and created "DOW.dat" and "weeklyAppts.csv." Other than these files, I implemented the rest of the source code with Tammy Lee. Lastly, this README was written by myself.
+My former professor provided partial code for the header files, as guidance for this project, and created "DOW.dat" and "weeklyAppts.csv." Other than these files, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.
 
