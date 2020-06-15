@@ -3,9 +3,9 @@
 
 
 # Project Overview
-A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
-Assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. 
-Assumes each month has 30 days. Returns appointments in chronological order.
+This project was designed to help students keep track of their academic schedules. It assists users in creating and finding events and arranges weekly appointments. Its implementation demonstrate an understanding of templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
+
+> REMARK: Assumes each month has 30 days. Returns appointments in chronological order.
 
 
 # Table of Contents
