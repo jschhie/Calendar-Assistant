@@ -50,7 +50,7 @@ The CSV file (if supplied) must contain a list of appointments and must have the
 
 ### Additional Notes for CSV Entries
 * __Abbreviations:__ S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday.
-* __Adding Non-weekly Events:___ The user can either (1) leave both the "Series" and "Count" blank, 
+* __Adding Non-Weekly Events:__ The user can either (1) leave both the "Series" and "Count" blank, 
 or (2) provide both, so that "Series" is a single character and "Count" is 1.
 
 
