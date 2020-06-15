@@ -5,7 +5,7 @@
 # Project Overview
 This project was designed to help students keep track of their academic schedules. It assists users in creating and finding events and arranges weekly appointments. Its implementation makes use of templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
 
-> REMARK: Assumes each month has 30 days. Displays appointments in chronological order.
+> REMARK: Program assumes each month has 30 days. Retrieved appointments are displayed in chronological order.
 
 
 # Table of Contents
@@ -24,15 +24,14 @@ This project was designed to help students keep track of their academic schedule
 
 
 ## Creating Executable
-For convenience, the corresponding ```Makefile``` has been made available. After downloading it along with the source code, you can use the command: 
-```make all```
+For convenience, the corresponding ```Makefile``` has been provided. After downloading it along with the source code, the user  can then use the ```make all``` command; this will generate the program executable, ```calendar.out```.
 
 ## Command Line Arguments I
-This program can be run as-is (e.g., ```./calendar.out```). 
+This program can be run as-is (i.e., ```./calendar.out```). 
 
 
 ## Command Line Arguments II 
-Alternatively, you can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out weeklyAppts.csv```).
+Alternatively, the user can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out weeklyAppts.csv```).
 The CSV file (if supplied) must contain a list of appointments and must have the following format *and* heading:
 > Date,Class,Subject,Start Time,End Time,Location,Series,Count.
 
@@ -50,9 +49,9 @@ The CSV file (if supplied) must contain a list of appointments and must have the
 
 
 ### Additional Notes for CSV Entries
-* Abbreviations: S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday.
-* For a non-weekly event, you can either (1) leave both the "Series" and "Count" blank, 
-or (2) provide both, so that "Series" is a single character and "Count" is 1.   
+* __Abbreviations:__ S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday.
+* __Adding Non-weekly Events:___ The user can either (1) leave both the "Series" and "Count" blank, 
+or (2) provide both, so that "Series" is a single character and "Count" is 1.
 
 
 # Using calendar-prog
