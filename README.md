@@ -16,7 +16,7 @@ Brief Intro: calendar-prog, Spring 2017 [updated in 2019], C++.
 # Introduction
 A User-friendly Calendar, programmed in C++. Integrates templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
 Assists users in creating and finding events and arranges weekly appointments. It is designed to help students keep track of their academic schedules. 
-Assumes each month has 30 days. Returns appointments in chrological order.
+Assumes each month has 30 days. Returns appointments in chronological order.
 
 
 # How to Use
