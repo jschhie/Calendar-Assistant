@@ -3,7 +3,7 @@
 
 
 # Project Overview
-This project was designed to help students keep track of their academic schedules. It assists users in creating and finding events and arranges weekly appointments. Its implementation demonstrate an understanding of templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
+This project was designed to help students keep track of their academic schedules. It assists users in creating and finding events and arranges weekly appointments. Its implementation makes use of templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
 
 > REMARK: Assumes each month has 30 days. Returns appointments in chronological order.
 
