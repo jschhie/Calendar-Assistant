@@ -1,4 +1,4 @@
-# Interactive Calendar Planner
+# Calendar Assistant
 > Created in Spring 2017. Minor source code modifications made in 2019/2020. Written in C++.
 
 
@@ -15,7 +15,7 @@ This project was designed to help students keep track of their academic schedule
   * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-ii)
     - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#csv-entries)
     - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#additional-notes-for-csv-entries)
- * [Using calendar-prog](https://github.com/jschhie/calendar-prog/blob/master/README.md#using-calendar-prog)
+ * [Program Functionalities](https://github.com/jschhie/calendar-prog/blob/master/README.md#usage)
   * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
 * [Acknowledgments](https://github.com/jschhie/calendar-prog/blob/master/README.md#acknowledgments)
 
@@ -54,7 +54,7 @@ The CSV file (if supplied) must contain a list of appointments and must have the
 or (2) provide both, so that "Series" is a single character and "Count" is 1.
 
 
-# Using calendar-prog
+# Usage
 
 While runnning the program, you are presented five options in the "Calendar Menu": 
 > (0) Done, (1) Search for date, (2) Search for Subject, (3) Add an appointment, and (4) Retrieve total number of  appointments. 
