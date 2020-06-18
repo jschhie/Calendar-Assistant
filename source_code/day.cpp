@@ -104,7 +104,7 @@ void Day::subjectSearch(const char *subject) const
   const Appointment *appointmentPtr;
   while((appointmentPtr = appts.find(subject)))
   {
-    ifstream inf("DOW.dat", ios::binary);
+    ifstream inf("../refs/DOW.dat", ios::binary); // Include filepath
     dayOfWeek dayOfWeek(month, day, year);
     inf >> dayOfWeek;
     cout << dayOfWeek;

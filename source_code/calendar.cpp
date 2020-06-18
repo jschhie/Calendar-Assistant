@@ -128,7 +128,7 @@ void Calendar::subjectSearch() const
 
 void Calendar::createSeries(WeeklyAppointment wk, int day, int month, int year)
 {
-  ifstream inf("DOW.dat", ios::binary);
+  ifstream inf("../refs/DOW.dat", ios::binary); // Include filepath
   int i = 1, pos = 0;
   
   while (i < wk.getSeriesCount())

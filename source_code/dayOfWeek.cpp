@@ -84,6 +84,7 @@ ostream& operator<< (ostream &os, const dayOfWeek &dayOfWeekRef)
 
 istream& operator>> (istream &is, dayOfWeek &dayOfWeekPtr) 
 {
+  // Assumes 30 days per month for simplicity
   int dateNumber = (dayOfWeekPtr.month - 1) * 31 + dayOfWeekPtr.day - 1 + (dayOfWeekPtr.year - 1990) * 372;
   is.seekg(dateNumber * sizeof(dayOfWeek));
   is.read((char*) &dayOfWeekPtr, sizeof(dayOfWeek));
