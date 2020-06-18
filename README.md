@@ -24,16 +24,19 @@ This project was designed to help students keep track of their academic schedule
 
 
 ## Creating Executable
-For convenience, the corresponding ```Makefile``` has been provided. After downloading it along with the source code, the user  can then use the ```make all``` command; this will generate the program executable, ```calendar.out```.
+For convenience, the corresponding ```Makefile``` has been provided. Assuming the user is inside the source_code directory, the user can then use the ```make all``` command, which will generate the program executable called ```calendar.out```.
 
 ## Command Line Arguments I
-This program can be run as-is (i.e., ```./calendar.out```). 
+This program can be run as-is (i.e., ```./calendar.out```); here, the program will not be initialized/pre-loaded with any  events.
 
 
 ## Command Line Arguments II 
-Alternatively, the user can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out weeklyAppts.csv```).
+Alternatively, the user can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out filePath/weeklyAppts.csv```). In this case, the program will be initialized with user-defined events prior to runtime.
+
 The CSV file (if supplied) must contain a list of appointments and must have the following format *and* heading:
 > Date,Class,Subject,Start Time,End Time,Location,Series,Count.
+
+Please see ```weeklyAppts.csv``` in the /refs/ directory for a concrete, valid example.
 
 
 ### CSV Entries
