@@ -64,7 +64,7 @@ While runnning the program, you are presented five options in the "Calendar Menu
 
 
 ## Remark on User Input
-The program is *case-sensitive*. For example, 'Intro Spanish' and 'intro spanish' are regarded as different in the "Subject" field. 
+The program is *case-sensitive*. For example, 'Intro to Spanish' and 'intro to spanish' are regarded as different in the "Subject" field. Users can also search by a key phrase (e.g., 'Spanish'), instead of the full subject name (e.g., 'Intro to Spanish').
 
 
 # Acknowledgments
