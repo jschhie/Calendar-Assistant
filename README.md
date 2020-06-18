@@ -5,7 +5,7 @@
 # Project Overview
 This project was designed to help students keep track of their academic schedules. It assists users in creating and finding events and arranges weekly appointments. Its implementation makes use of templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
 
-> REMARK: Program assumes each month has 30 days. Retrieved appointments are displayed in chronological order.
+> REMARK: Program assumes each month has __30 days__. Retrieved appointments are displayed in chronological order.
 
 
 # Table of Contents
