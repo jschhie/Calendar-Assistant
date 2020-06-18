@@ -17,6 +17,7 @@ This project was designed to help students keep track of their academic schedule
     - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#additional-notes-for-csv-entries)
  * [Program Functionalities](https://github.com/jschhie/calendar-prog/blob/master/README.md#usage)
   * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
+* [Visual Demo](https://github.com/jschhie/calendar-prog/blob/master/README.md#visual-demo)
 * [Acknowledgments](https://github.com/jschhie/calendar-prog/blob/master/README.md#acknowledgments)
 
 
@@ -65,6 +66,10 @@ While runnning the program, you are presented five options in the "Calendar Menu
 
 ## Remark on User Input
 The program is *case-sensitive*. For example, 'Intro to Spanish' and 'intro to spanish' are regarded as different in the "Subject" field. Users can also search by a key phrase (e.g., 'Spanish'), instead of the full subject name (e.g., 'Intro to Spanish').
+
+
+# Visual Demo
+todo
 
 
 # Acknowledgments
