@@ -69,7 +69,13 @@ The program is *case-sensitive*. For example, 'Intro to Spanish' and 'intro to s
 
 
 # Visual Demo
-todo
+> This section makes use of the sample ```weeklyAppts.csv``` as a command line argument, which initializes the calendar with 548 arbitrary events. 
+
+| Sample Program Outputs | Key Points |
+| :---: | --- |
+| ![alt text](https://github.com/jschhie/calendar-prog/blob/master/calendar_demos/548_init_appts/init_state_548.png "Initial State Using Sample CSV File") | - Confirm Initial State: 548 pre-loaded events. |
+| ![alt text](https://github.com/jschhie/calendar-prog/blob/master/calendar_demos/548_init_appts/all_spanish_events.png "Query: Search by Subject") | - Search by Subject. Display all `Spanish` events. Note that the first date listed is `Feb. 2, 1994`. |
+| ![alt text](https://github.com/jschhie/calendar-prog/blob/master/calendar_demos/548_init_appts/query%20for%20spanish.png "Query: Search by Date")| - Search by Date. In this example, the user requests events that occur on `Feb. 2, 1994`. Note that the retrieved ```Spanish``` event from earlier is also returned, as expected. | 
 
 
 # Acknowledgments
