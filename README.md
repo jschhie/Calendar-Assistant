@@ -5,7 +5,7 @@
 # Project Overview
 This project was designed to help students keep track of their academic schedules. It assists users in creating and finding events and arranges weekly appointments. Its implementation makes use of templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
 
-> REMARK: Program assumes each month has __30 days__. Retrieved appointments are displayed in chronological order.
+A visual demo can be found [here](https://github.com/jschhie/calendar-prog/blob/master/README.md#visual-demo).
 
 
 # Table of Contents
@@ -69,7 +69,7 @@ The program is *case-sensitive*. For example, 'Intro to Spanish' and 'intro to s
 
 
 # Visual Demo
-> This section makes use of the sample ```weeklyAppts.csv``` as a command line argument, which initializes the calendar with 548 arbitrary events. 
+> This section makes use of the sample ```weeklyAppts.csv``` as a command line argument, which initializes the calendar with 548 arbitrary events. Program assumes each month has __30 days__. Retrieved appointments are displayed in chronological order.
 
 | Sample Program Outputs | Key Points |
 | :---: | --- |
