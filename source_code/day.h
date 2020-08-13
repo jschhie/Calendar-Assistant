@@ -8,7 +8,6 @@
 #include "vector.h"
 #include "weeklyAppt.h"
 
-// NOTE: NEED TO CHANGE DAY EXTRACTION OP TO RETURN A CONST POINTER TO AN APPOINTMENT NOT ISTREAM REF //
 
 using namespace std;
 
