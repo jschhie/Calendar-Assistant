@@ -61,7 +61,7 @@ or (2) provide both, so that "Series" is a single character and "Count" is 1.
 # Usage
 
 While runnning the program, you are presented five options in the "Calendar Menu": 
-> (0) Done, (1) Search for date, (2) Search for Subject, (3) Add an appointment, and (4) Retrieve total number of  appointments. 
+> (0) Exit and save calendar events, (1) Search for date, (2) Search for Subject, (3) Add an appointment, and (4) Retrieve total number of  appointments. 
 
 
 ## Remark on User Input
