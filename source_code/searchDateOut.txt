@@ -1,0 +1,43 @@
+********************************************************************************
+                           About Calendar Assistant
+
+Usage: ./calendar.out <filePath/weeklyAppts.csv>
+
+'weeklyAppts.csv' needs the following format and heading:
+Date,Class,Subject,Start Time,End Time,Location,Series,Count
+********************************************************************************
+
+================================================================================
+                            Calendar Assistant Menu
+--------------------------------------------------------------------------------
+0. Exit and save calendar.
+1. Search for date.
+2. Search for subject (case sensitive).
+3. Add an appointment.
+4. Print appointment count.
+================================================================================
+
+Your choice >> 1
+Please enter the month, day, and year (mm/dd/yyyy) >> 02/02/1994
+
+Start End   Subject      Location
+--------------------------------------------------------------------------------
+06:10 07:50 German       6 Olson                   
+06:30 08:30 Comp Sci     123 Sciences Lecture Hall 
+06:40 09:20 Geology      1002 Geidt                
+07:15 07:50 History      6 Welman                  
+08:00 09:45 Spanish      6 Olson                   
+14:00 15:40 Neurology    106 Wellman               
+16:20 16:30 French       170 Schalm Hall           
+
+================================================================================
+                            Calendar Assistant Menu
+--------------------------------------------------------------------------------
+0. Exit and save calendar.
+1. Search for date.
+2. Search for subject (case sensitive).
+3. Add an appointment.
+4. Print appointment count.
+================================================================================
+
+Your choice >> 
