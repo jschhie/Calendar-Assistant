@@ -1,8 +1,9 @@
 #include <cstdlib>
 #include <cstring>
 #include <fstream>
-#include <iostream>
 #include <iomanip>
+#include <iostream>
+
 #include "weeklyAppt.h"
 
 using namespace std;

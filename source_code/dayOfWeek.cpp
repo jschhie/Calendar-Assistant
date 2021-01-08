@@ -1,11 +1,11 @@
-#include <fstream>
-#include <iostream>
 #include <cstring>
+#include <fstream>
 #include <iomanip>
+#include <iostream>
+
 #include "dayOfWeek.h"
 
 using namespace std;
-
 
 dayOfWeek::dayOfWeek(int month1, int day1, int year1): month(month1), 
   day(day1), year(year1)

@@ -1,8 +1,9 @@
 #include <cstdlib>
+#include <cstring>
+#include <iomanip>
 #include <iostream>
 #include <fstream>
-#include <iomanip>
-#include <cstring>
+
 #include "day.h"
 
 using namespace std;
@@ -65,7 +66,9 @@ Day& Day::operator= (const Day &rhs)
 
 ostream& operator<< (ostream &os, const Day &day)
 {
+  int numReps = 80;
   os << "Start End   Subject      Location\n";
+  os << string(numReps, '-') << endl;
   os << day.appts;
   os << "\n";
   return os;

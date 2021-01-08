@@ -1,7 +1,8 @@
-#include <iostream>
-#include <iomanip>
-#include <cstring>
 #include <cstdlib>
+#include <cstring>
+#include <iomanip>
+#include <iostream>
+
 #include "time.h"
 
 using namespace std;

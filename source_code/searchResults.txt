@@ -1,0 +1,53 @@
+********************************************************************************
+                           About Calendar Assistant
+
+Usage: ./calendar.out <filePath/weeklyAppts.csv>
+
+'weeklyAppts.csv' needs the following format and heading:
+Date,Class,Subject,Start Time,End Time,Location,Series,Count
+********************************************************************************
+
+================================================================================
+                            Calendar Assistant Menu
+--------------------------------------------------------------------------------
+0. Exit and save calendar.
+1. Search for date.
+2. Search for subject (case sensitive).
+3. Add an appointment.
+4. Print appointment count.
+================================================================================
+
+Your choice >> 2
+Please enter the subject >> Spanish
+
+Date                          Start End   Subject      Location
+--------------------------------------------------------------------------------
+Wednesday, February 2, 1994   08:00 09:45 Spanish      6 Olson                   
+Monday, June 12, 1995         14:20 15:00 Spanish      180 Med Sci               
+Sunday, December 28, 1997     13:20 14:45 Spanish      194 Young                 
+Saturday, July 17, 2004       15:05 17:55 Spanish      123 Sciences Lecture Hall 
+Saturday, April 15, 2006      07:05 09:35 Spanish      66 Roessler               
+Saturday, June 24, 2006       15:05 16:10 Spanish      66 Roessler               
+Tuesday, June 27, 2006        15:05 16:10 Spanish      66 Roessler               
+Saturday, July 1, 2006        15:05 16:10 Spanish      66 Roessler               
+Tuesday, July 4, 2006         15:05 16:10 Spanish      66 Roessler               
+Saturday, July 8, 2006        15:05 16:10 Spanish      66 Roessler               
+Tuesday, July 11, 2006        15:05 16:10 Spanish      66 Roessler               
+Saturday, July 15, 2006       15:05 16:10 Spanish      66 Roessler               
+Tuesday, July 18, 2006        15:05 16:10 Spanish      66 Roessler               
+Saturday, July 22, 2006       15:05 16:10 Spanish      66 Roessler               
+Tuesday, July 25, 2006        15:05 16:10 Spanish      66 Roessler               
+Sunday, January 31, 2010      14:15 14:50 Spanish      170 Schalm Hall           
+Friday, November 4, 2011      12:10 13:55 Spanish      123 Sciences Lecture Hall 
+
+================================================================================
+                            Calendar Assistant Menu
+--------------------------------------------------------------------------------
+0. Exit and save calendar.
+1. Search for date.
+2. Search for subject (case sensitive).
+3. Add an appointment.
+4. Print appointment count.
+================================================================================
+
+Your choice >> 

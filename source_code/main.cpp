@@ -3,6 +3,8 @@
  */
 #include <iostream>
 #include <fstream>
+#include <string>
+
 #include "calendar.h"
 
 using namespace std;
@@ -12,35 +14,51 @@ int getChoice()
   int choice = 0;
   char line[80];
   
-  while(true)
+  while(1)
   {
-    cout << "Calendar Menu\n";
-    cout << "0. Done\n";
+    // Center header and add borders to Menu
+    int numReps = 80;
+    cout << string(numReps, '=') << endl;
+    string header = "Calendar Assistant Menu\n";
+    int numSpaces = (numReps - header.size()) / 2;
+    cout << string(numSpaces, ' ') << header;
+    cout << string(numReps, '-') << endl;
+    // Display choices
+    cout << "0. Exit and save calendar.\n";
     cout << "1. Search for date.\n";
-    cout << "2. Search for subject. CASE SENSITIVE\n";
+    cout << "2. Search for subject (case sensitive).\n";
     cout << "3. Add an appointment.\n";
     cout << "4. Print appointment count.\n";
+    cout << string(numReps, '=') << endl;
+
+    // Get user choice
     cout << "\nYour choice >> ";
     cin >> choice;
     
-    if(choice >= 0 && choice < 5)
+    if (choice >= 0 && choice < 5)
       break;
-    
-    cout << "Choice must be between 0 and 4.  Please try again.\n\n";
+    else
+      cout << "Choice must be between 0 and 4. Please try again.\n\n";
   }  // while invalid choice
-  
+
   cin.getline(line, 80);
   return choice;
+
 } // getChoice()
 
 
 int printPrompt()
 {
-  cout << "---------------------------------------------------------------------------\n";
-  cout << "\nUsage: ./calendar.out <filePath/weeklyAppts.csv>";
-  cout << "\nThis program allows users to search appointments based on dates/subject,\nadd weekly appointments, and tally total appointments.\n";
-  cout << "\nInput file 'weeklyAppts.csv' must have the following format and heading:\nDate,Class,Subject,Start Time,End Time,Location,Series,Count\n";
-  cout << "---------------------------------------------------------------------------\n\n";
+  // Center header and add borders
+  int numReps = 80;
+  cout << string(numReps, '*') << endl;
+  string header = "About Calendar Assistant\n";
+  int numSpaces = (numReps - header.size()) / 2;
+  cout << string(numSpaces, ' ') << header << endl;
+  cout << "Usage: ./calendar.out <filePath/weeklyAppts.csv>\n";
+  cout << "\n'weeklyAppts.csv' needs the following format and heading:\n";
+  cout << "Date,Class,Subject,Start Time,End Time,Location,Series,Count\n";
+  cout << string(numReps, '*') << endl << endl;
   return 0;
 } // printPrompt()
 
@@ -61,9 +79,15 @@ int main(int argc, char **argv)
   {
     switch(choice)
     {
-      case 1: calendar.dateSearch(); break;
-      case 2: calendar.subjectSearch(); break;
-      case 3: calendar.addAppointment(); break;
+      case 1: 
+        calendar.dateSearch(); 
+        break;
+      case 2: 
+        calendar.subjectSearch(); 
+        break;
+      case 3: 
+        calendar.addAppointment(); 
+        break;
       case 4: 
         cout << "Appointment count: " << Appointment::getCount()  << "\n\n";
         break;

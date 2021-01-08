@@ -1,0 +1,20 @@
+*****************************************************************
+                    About Calendar Assistant
+
+Usage: ./calendar.out <filePath/weeklyAppts.csv>
+
+'weeklyAppts.csv' needs the following format and heading:
+Date,Class,Subject,Start Time,End Time,Location,Series,Count
+*****************************************************************
+
+=================================================================
+                    Calendar Assistant Menu
+-----------------------------------------------------------------
+0. Exit and save calendar.
+1. Search for date.
+2. Search for subject (case sensitive).
+3. Add an appointment.
+4. Print appointment count.
+=================================================================
+
+Your choice >> 0

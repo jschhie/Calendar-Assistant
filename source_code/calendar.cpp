@@ -2,6 +2,8 @@
 #include <fstream>
 #include <cstring>
 #include <cstdlib>
+#include <string>
+
 #include "calendar.h"
 
 using namespace std;
@@ -38,7 +40,7 @@ void Calendar::dateSearch() const
 
 void Calendar::getDate(int *day, int *month, int *year) const
 {
-  while(true)
+  while(1)
   {
     char line[80], line2[80], *ptr;
     cout << "\nPlease enter the month, day, and year (mm/dd/yyyy) >> ";
@@ -117,8 +119,9 @@ void Calendar::subjectSearch() const
   if(strlen(subject) > 0)
     subject[strlen(subject) - 1] = '\0';  // eliminate the '\n'
   
-  cout << "Date                          Start End   Subject      Location\n";
-  
+  string header = "Date                          Start End   Subject      Location";
+  cout << header << endl << string(80, '-') << endl;
+
   for(int i = 0; i < days.getCount(); i++)
     days[i].subjectSearch(subject);
   

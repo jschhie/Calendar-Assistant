@@ -4,6 +4,7 @@
 #include "appt.h"
 
 using namespace std;
+
 class WeeklyAppointment: public Appointment 
 {
 

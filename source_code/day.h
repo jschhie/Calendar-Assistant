@@ -2,12 +2,12 @@
 #define	DAY_H
 
 #include <iostream>
-#include "linkedlist.h"
+
 #include "appt.h"
 #include "dayOfWeek.h"
+#include "linkedlist.h"
 #include "vector.h"
 #include "weeklyAppt.h"
-
 
 using namespace std;
 
