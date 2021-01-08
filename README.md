@@ -79,4 +79,4 @@ The program is *case-sensitive*. For example, 'Intro to Spanish' and 'intro to s
 
 
 # Acknowledgments
-As guidance for this project, my former professor provided skeleton code for the header files and some sample files (i.e., ```DOW.dat``` and ```weeklyAppts.csv```). I implemented the rest of the source code with a partner. Lastly, this README was written by myself.
+My former professor provided skeleton code for the header files and some sample files (i.e., ```DOW.dat``` and ```weeklyAppts.csv```). I implemented the rest of the source code with a partner. Lastly, this README was written by myself.
