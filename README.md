@@ -75,7 +75,7 @@ The program is *case-sensitive*. For example, 'Intro to Spanish' and 'intro to s
 | :---: | --- |
 | ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/Main%20Menu.png "Initial State Using Sample CSV File") | - Confirm Initial State: 548 pre-loaded events. |
 | ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/Search%20Subject%20Out.png "Query: Search by Subject") | - Search by Subject. Display all `Spanish` events. Note that the first date listed is `Feb. 2, 1994`. |
-| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/Search%20Date%20Out.png "Query: Search by Date")| - Search by Date. In this example, the user requests events that occur on `Feb. 2, 1994`. Note that the retrieved ```Spanish``` event from earlier is also returned, as expected. | 
+| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/New%20Search%20Date%20Out.png "Query: Search by Date")| - Search by Date. In this example, the user requests events that occur on `Feb. 2, 1994`. Note that the retrieved ```Spanish``` event from earlier is also returned, as expected. | 
 
 
 # Acknowledgments
