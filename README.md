@@ -1,5 +1,5 @@
 # Calendar Assistant
-> Written in C++.
+> Created in Spring 2017. Written in C++.
 
 
 # Project Overview
