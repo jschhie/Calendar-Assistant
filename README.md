@@ -70,7 +70,7 @@ The program is *case-sensitive*. For example, 'Intro to Spanish' and 'intro to s
 > This demo uses ```weeklyAppts.csv``` as a command line argument, which initializes the calendar with 548 events. Program assumes each month has __30 days__. Appointments will be displayed in chronological order.
 
 | Sample Program Outputs | Description |
-| :---: | :---: |
-| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/Main%20Menu.png "Initial State Using Sample CSV File") | Main Menu displayed. |
-| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/New%20Search%20Subject%20Output.png "Query: Search by Subject") | Search by Subject. Display all `Spanish` events. Note that the first date listed is `Feb. 2, 1994`. |
-| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/New%20Search%20Date%20Output.png "Query: Search by Date")| Search by Date. In this example, the user requests events that occur on `Feb. 2, 1994`. Note that the retrieved ```Spanish``` event from earlier is also returned. | 
+| :---: | :--- |
+| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/Main%20Menu.png "Initial State Using Sample CSV File") | <dl><dt>Main Menu displayed.</dt></dl>|
+| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/New%20Search%20Subject%20Output.png "Query: Search by Subject") | <dl><dt> Search by Subject. </dt> <dd>Display all `Spanish` events.</dd> <dd> Note that the first date listed is `Feb. 2, 1994`.</dd></dl> |
+| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/New%20Search%20Date%20Output.png "Query: Search by Date")| <dl><dt>Search by Date.</dt> <dd>In this example, the user requests events that occur on `Feb. 2, 1994`. </dd> <dd> Note that the retrieved ```Spanish``` event from earlier is also returned. </dd> </dl> | 
