@@ -11,7 +11,6 @@ A visual demo can be found [here](https://github.com/jschhie/calendar-prog/blob/
   * [Creating Executable](https://github.com/jschhie/calendar-prog/blob/master/README.md#creating-executable)
   * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-i)
   * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-ii)
-    - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#csv-entries)
  * [Program Functionalities](https://github.com/jschhie/calendar-prog/blob/master/README.md#usage)
   * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
 * [Visual Demo](https://github.com/jschhie/calendar-prog/blob/master/README.md#visual-demo)
@@ -47,7 +46,7 @@ The CSV file should contain a list of appointments and have the following format
 
 
 <details>
- <summary><b>Show Details</b></summary>
+ <summary><b>Show Notes</b></summary>
  <dl>
   <dt> Abbreviations </dt>
   <dd> S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday. </dd>
@@ -68,10 +67,10 @@ The program is *case-sensitive*. For example, 'Intro to Spanish' and 'intro to s
 
 
 ## Visual Demo
-> This section makes use of the sample ```weeklyAppts.csv``` as a command line argument, which initializes the calendar with 548 arbitrary events. Program assumes each month has __30 days__. Retrieved appointments are displayed in chronological order.
+> This demo uses ```weeklyAppts.csv``` as a command line argument, which initializes the calendar with 548 events. Program assumes each month has __30 days__. Appointments will be displayed in chronological order.
 
 | Sample Program Outputs | Description |
 | :---: | :---: |
 | ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/Main%20Menu.png "Initial State Using Sample CSV File") | Main Menu displayed. |
 | ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/New%20Search%20Subject%20Output.png "Query: Search by Subject") | Search by Subject. Display all `Spanish` events. Note that the first date listed is `Feb. 2, 1994`. |
-| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/New%20Search%20Date%20Output.png "Query: Search by Date")| Search by Date. In this example, the user requests events that occur on `Feb. 2, 1994`. Note that the retrieved ```Spanish``` event from earlier is also returned, as expected. | 
+| ![alt text](https://github.com/jschhie/Calendar-Assistant/blob/master/calendar_demos/New%20Search%20Date%20Output.png "Query: Search by Date")| Search by Date. In this example, the user requests events that occur on `Feb. 2, 1994`. Note that the retrieved ```Spanish``` event from earlier is also returned. | 
