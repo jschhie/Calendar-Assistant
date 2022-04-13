@@ -27,7 +27,7 @@ This program can be run as-is (i.e., ```./calendar.out```); here, the program wi
 
 
 ### Command Line Arguments II 
-Alternatively, the user can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out filePath/weeklyAppts.csv```). In this case, the program will be initialized with custom events prior to runtime.
+Alternatively, the user can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out filePath/weeklyAppts.csv```). In this case, the program will be initialized with custom events.
 
 The CSV file should contain a list of appointments and have the following format *and* heading:
 > Date,Class,Subject,Start Time,End Time,Location,Series,Count.
