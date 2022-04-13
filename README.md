@@ -12,7 +12,6 @@ A visual demo can be found [here](https://github.com/jschhie/calendar-prog/blob/
   * [Command Line Arguments I](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-i)
   * [Command Line Arguments II](https://github.com/jschhie/calendar-prog/blob/master/README.md#command-line-arguments-ii)
     - [CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#csv-entries)
-    - [Additional Notes for CSV Entries](https://github.com/jschhie/calendar-prog/blob/master/README.md#additional-notes-for-csv-entries)
  * [Program Functionalities](https://github.com/jschhie/calendar-prog/blob/master/README.md#usage)
   * [Remark on User Input](https://github.com/jschhie/calendar-prog/blob/master/README.md#remark-on-user-input)
 * [Visual Demo](https://github.com/jschhie/calendar-prog/blob/master/README.md#visual-demo)
@@ -22,19 +21,17 @@ A visual demo can be found [here](https://github.com/jschhie/calendar-prog/blob/
 
 
 ### Creating Executable
-For convenience, the corresponding ```Makefile``` has been provided. Assuming the user is inside the source_code directory, the user can then use the ```make all``` command, which will generate the program executable called ```calendar.out```.
+For convenience, the corresponding ```Makefile``` has been provided. Assuming the user is inside the source_code directory, they can use the ```make all``` command, which will generate an executable called ```calendar.out```.
 
 ### Command Line Arguments I
-This program can be run as-is (i.e., ```./calendar.out```); here, the program will not be initialized/pre-loaded with any  events.
+This program can be run as-is (i.e., ```./calendar.out```); here, the program will not be initialized with any events.
 
 
 ### Command Line Arguments II 
-Alternatively, the user can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out filePath/weeklyAppts.csv```). In this case, the program will be initialized with user-defined events prior to runtime.
+Alternatively, the user can supply a comma-separated-values (CSV) file as a command line argument (e.g., ```./calendar.out filePath/weeklyAppts.csv```). In this case, the program will be initialized with custom events prior to runtime.
 
-The CSV file (if supplied) must contain a list of appointments and must have the following format *and* heading:
+The CSV file should contain a list of appointments and have the following format *and* heading:
 > Date,Class,Subject,Start Time,End Time,Location,Series,Count.
-
-Please see ```weeklyAppts.csv``` in the /refs/ directory for a concrete, valid example.
 
 
 #### CSV Entries
@@ -49,11 +46,16 @@ Please see ```weeklyAppts.csv``` in the /refs/ directory for a concrete, valid e
 | Count             | A digit             | ```7```                 |
 
 
-#### Additional Notes for CSV Entries
-* __Abbreviations:__ S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday.
-* __Adding Non-Weekly Events:__ The user can either (1) leave both the "Series" and "Count" blank, 
-or (2) provide both, so that "Series" is a single character and "Count" is 1.
-
+<details>
+ <summary><b>Show Details</b></summary>
+ <dl>
+  <dt> Abbreviations </dt>
+  <dd> S - Saturday, M - Monday, T - Tuesday, W - Wednesday, R - Thursday, F - Friday, and U - Sunday. </dd>
+  <dt> Adding Non-Weekly Events </dt>
+  <dd> The user can either (1) leave both the "Series" and "Count" blank, 
+   or (2) provide both, so that "Series" is a single character and "Count" is 1. </dd>
+ </dl>
+</details>
 
 ## Usage
 
