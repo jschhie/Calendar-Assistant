@@ -1,5 +1,7 @@
 # Calendar Assistant
 
+> Written in C++.
+
 ## Project Overview
 This project was designed to help students keep track of their academic schedules. It assists users in creating and finding events and arranges weekly appointments. Its implementation makes use of templated polymorphism, doubly-linked lists, vectors, and operator overloading. 
 
